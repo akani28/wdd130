@@ -1,3 +1,4 @@
+
 #content{
 
 
@@ -26,6 +27,9 @@ main section{
 }
 body{
     background-color:#fdcae1;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #fdf9c4;
@@ -38,20 +42,27 @@ nav a:hover{
 .book, .join{
     text-decoration: none;
     background-color: burlywood;
+    font-size: 18px;
+    padding:15px 30px
 }
 .book:hover, .join:hover{
     background-color:red;
 }
 .msg{
     background-color: #ffca99;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #ff85d5;
+    padding: 25px 50px;
 }
 .home-title{
     color: black;
+    font-size: 2em;
+    font-family:'Martian Mono', 'Bradley Hand', sans-serif; 
 }
-h4{
+h4{ 
     color:black;
 }
 .logo{
@@ -59,6 +70,8 @@ h4{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
+
 }
 #hero-img{
     width: 100%;
@@ -72,4 +85,17 @@ footer p {
 }
 footer p a:hover{
     text-decoration: underline;
+}
+.msg p{
+    font-size: 8em;
+    padding-bottom: 15px;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+nav a{
+    padding: 35px;
 }
