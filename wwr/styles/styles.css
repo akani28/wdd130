@@ -43,7 +43,10 @@ nav a:hover{
     text-decoration: none;
     background-color: burlywood;
     font-size: 18px;
-    padding:15px 30px
+    padding:15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
 }
 .book:hover, .join:hover{
     background-color:red;
@@ -56,11 +59,13 @@ nav a:hover{
 footer{
     background-color: #ff85d5;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: black;
     font-size: 2em;
     font-family:'Martian Mono', 'Bradley Hand', sans-serif; 
+    margin-top: 10px;
 }
 h4{ 
     color:black;
@@ -98,4 +103,17 @@ h2{
 }
 nav a{
     padding: 35px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .campig-card, .rpids-card{
+    margin:200px 0;
+
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
