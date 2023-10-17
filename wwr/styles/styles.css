@@ -54,7 +54,7 @@ nav a:hover{
 }
 .book, .join{
     text-decoration: none;
-    background-color:red;
+background-color:#ffca99 ;
     font-size: 18px;
     padding:15px 30px;
     margin-top: 50px;
@@ -62,13 +62,14 @@ nav a:hover{
     
 }
 .book:hover, .join:hover{
-    background-color:red;
+    background-color:grey;
 }
 .msg{
-    background-color: #ffca99;
+    background-color:#fdcae1;
     line-height: 1.5em;
     padding: 35px;
 }
+
 footer{
     background-color: #ff85d5;
     padding: 25px 50px;
@@ -105,7 +106,7 @@ footer p a:hover{
     text-decoration: underline;
 }
 .msg p{
-    font-size: 8em;
+    font-size: 1em;
     padding-bottom: 15px;
 }
 h2{
