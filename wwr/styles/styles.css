@@ -22,7 +22,7 @@ a{
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 600px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -57,13 +57,17 @@ header{
     color: white;
     display: grid;
     grid-template-columns: 150px auto;
+    justify-content: flex-start;
+    align-items: center;
 }
 .nav {
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 nav a:hover{
-    background-color:grey;
+    background-color:#fdcae1;
     text-decoration: underline;
 }
 .book, .join{
@@ -96,8 +100,11 @@ footer{
     align-items: center;
 }
 .home-title{
-    color: black;
-    font-size: 2em;
+    color: #fdf9c4;
+    border-radius: 1rem;
+    border: 4px solid #ff85d5;
+    background-color: black;
+    font-size: 3em;
     font-family:'Martian Mono', 'Bradley Hand', sans-serif; 
     margin-top: 10px;
 }
@@ -107,9 +114,12 @@ footer{
 }
 h4{ 
     color:black;
+    background-color: gray;
+    padding: 1rem 0;
 }
 .logo{
     width: 80px;
+    border-radius: 1rem;
 }
 .icon{
     width: 80px;
@@ -156,6 +166,9 @@ nav a{
 }
 footer .social img{
     padding-top: 15px;
+    width: 75px;
+    height: 70px;
+    border-radius: 0.5rem;
 }
 
 .rivers-card, .campig-card, .rapids-card{
