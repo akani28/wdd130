@@ -44,3 +44,17 @@
     box-shadow: 0 0 30px gray;
     float: right;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-header {
+    display: flex;
+}
+
+.nav-header a {
+    padding: 1rem;
+    margin: 0.5rem;
+}
