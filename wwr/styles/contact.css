@@ -16,7 +16,10 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
     place-items: center;
     background-color: var(--secondary-color);
 }
@@ -44,8 +47,12 @@ header {
 
 main {
     display: flex;
-    flex-direction: column;
-    gap: 100px;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+footer {
+    background-color: var(--secondary-color);
 }
 
 .content-title {
@@ -53,6 +60,12 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    
+}
+
+.content-form {
+    background-color: var(--primary-color);
+    padding: 2.5rem;
 }
 
 .social-network {
@@ -72,5 +85,12 @@ main {
 .info-rafting {
     display: flex;
     flex-direction: column;
+    background-color: var(--accent2-color);
     gap: 100px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.map {
+    padding: 2rem;
 }
