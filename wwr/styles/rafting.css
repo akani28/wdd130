@@ -36,9 +36,9 @@ body {
     height: auto;
     padding: 20px;
     position: absolute;
-    top: 50%; /* Centrado verticalmente */
-    left: 50%; /* Centrado horizontalmente */
-    transform: translate(-50%, -50%); /* Ajuste para centrar el contenedor */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     z-index: 1; 
     color: var(--color-fuente);
