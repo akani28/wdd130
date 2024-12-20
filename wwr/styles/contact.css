@@ -27,12 +27,25 @@ img {
     object-fit: cover;
 }
 
+span {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 30px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     background-color: var(--primary-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 .content-title {
@@ -50,4 +63,14 @@ header {
     width: 20px;
     height: 20px;
 
+}
+.info-rafting img{
+    width: 32px;
+    height: auto;
+}
+
+.info-rafting {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
